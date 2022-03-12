@@ -1,0 +1,14 @@
+.searchbar{
+    background-color: red;
+    display: flex;
+    justify-content: space-around;
+    &__search{
+        margin: 20px;
+        width: 60%;
+        border-radius: 20px;
+    }
+    &__date{
+        margin: 20px;
+        border-radius: 20px;
+    }
+}

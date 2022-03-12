@@ -1,0 +1,28 @@
+.pagination{
+    position:absolute;
+    top:122%;
+
+    width: 50%;
+  
+    a{
+        padding: 10px;
+        margin:4px;
+        border-radius: 20px;
+        border: 1px solid red;
+        color:black;
+        font-weight: bold;
+        cursor:pointer;
+        background-color: rgb(185, 19, 19);
+
+        &:hover{
+            background-color: red;
+        }
+    }
+    &__container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+list-style: none;
+
+    }
+}
